@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12 large-searchbar">
       <%= form_for :search, url: search_path, method: :get do |f| %>
-        <%= f.search_field :q, value: params[:q], placeholder: 'Search Stories', autofocus: true, autocomplete: 'off', onfocus: "this.value = this.value;" %>
+        <%= f.search_field :q, value: params[:q], placeholder: 'Search Reminders', autofocus: true, autocomplete: 'off', onfocus: "this.value = this.value;" %>
       <% end %>
     </div>
   </div>
@@ -23,7 +23,7 @@
     <div class="col-md-6" data-animation="fadeInUp-fadeOutDown">
       <% if @posts.any? %>
         <div data-behavior="endless-scroll">
-          <h4 class="small-heading border-top">Stories</h4>
+          <h4 class="small-heading border-top">Firdows.space</h4>
           <%= render @posts %>
         </div>
         <div class="center">

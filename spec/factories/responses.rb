@@ -13,7 +13,7 @@
 
 FactoryGirl.define do
   factory :response do
-    body "Awesome post thanks!!"
+    body "Please post to remind me!"
     user
   end
 end

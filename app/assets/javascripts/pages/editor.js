@@ -7,7 +7,7 @@ var Editor = {
 
     var editor = new MediumEditor('.medium-editable', {
       placeholder: {
-        text: "Tell your Story ..."
+        text: "Remind Me here ! "
       }
     });
 
@@ -29,7 +29,7 @@ var Editor = {
 
     // preload tags if its edit.
     var tag_string = $('[data-behavior="tags"]').data("tags");
-    var tags = tag_string.length > 0 ? tag_string.split(', ') : ['Story', 'Music'];
+    var tags = tag_string.length > 0 ? tag_string.split(', ') : ['Ramadan', 'Quran'];
 
     var my_taggle = new Taggle('js-taggle', {
       duplicateTagClass: 'bounce',

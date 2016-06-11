@@ -13,7 +13,7 @@
     </div>
     <% elsif feed.featured?(post) %>
       <div class="feed-metadata">
-        Featured by Stories Staff and recommended by <%= pluralize(post.likes_count, 'other') %>
+        Featured by Dawah Staff and recommended by <%= pluralize(post.likes_count, 'other') %>
       </div>
     <% end %>
     <%= render partial: 'posts/post', locals: { post: post } %>
