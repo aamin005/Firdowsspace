@@ -3,7 +3,7 @@ ruby "2.3.0"
 
 gem 'rails', '4.2.6'
 gem 'puma', '~> 2.15'
-gem 'pg'
+
 
 # Auth
 gem 'devise', '~> 3.5.3'
@@ -62,6 +62,7 @@ group :development, :test do
   gem 'poltergeist', '~> 1.8'
   gem 'awesome_print', '~> 1.6'
   gem 'bundler-audit', '~> 0.5.0'
+  gem 'sqlite3', '~> 1.3.0'
 end
 
 group :development do
@@ -90,4 +91,5 @@ end
 group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'bonsai-elasticsearch-rails'
+  gem 'pg'
 end
