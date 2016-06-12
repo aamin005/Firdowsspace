@@ -411,7 +411,7 @@ DEPENDENCIES
   annotate
   autoprefixer-rails (~> 6.3)
   awesome_print (~> 1.6)
-  bonsai-elasticsearch-rails
+  bonsai-elasticsearch-rails (~> 0.0.4)
   bootstrap-sass (~> 3.3.6)
   bullet (~> 5.0)
   bundler-audit (~> 0.5.0)
