@@ -542,7 +542,7 @@ DEPENDENCIES
   elasticsearch-rails (~> 0.1.8)
   factory_girl_rails (~> 4.5.0)
   faker (~> 1.6.1)
-  fog (~> 1.38)
+  fog (~> 1.38.0)
   font-awesome-sass (~> 4.5)
   friendly_id (~> 5.1)
   guard-rspec
