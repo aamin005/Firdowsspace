@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 ruby "2.3.0"
 
 gem 'rails', '4.2.6'
-gem 'puma', '~> 2.15'
+gem 'test-unit'
+
 
 
 # Auth
@@ -30,7 +31,7 @@ gem 'friendly_id', '~> 5.1'
 # Image upload
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
-gem 'fog',  '1.23.0'
+gem 'fog', '~> 1.38'
 gem 'net-ssh'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -92,4 +93,5 @@ group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'bonsai-elasticsearch-rails', '~> 0.0.4'
   gem 'pg'
+  gem 'puma', '~> 2.15'
 end

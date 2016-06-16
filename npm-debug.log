@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--',
+1 verbose cli   'RAILS_ENV=production',
+1 verbose cli   './bin/rake',
+1 verbose cli   'assets:precompile',
+1 verbose cli   '--' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose config Skipping project config: /Users/aminanokasae/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/aminanokasae/package.json
+6 warn package.json aminanokasae@1.0.0 No description
+7 warn package.json aminanokasae@1.0.0 No repository field.
+8 warn package.json aminanokasae@1.0.0 No README data
+9 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/abbrev/package.json
+10 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/accepts/package.json
+11 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ansi-regex/package.json
+12 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ansi-styles/package.json
+13 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/archy/package.json
+14 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/argparse/package.json
+15 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/array-differ/package.json
+16 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/array-flatten/package.json
+17 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/array-uniq/package.json
+18 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/async/package.json
+19 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/babel/package.json
+20 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/babel-preset-es2015/package.json
+21 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/babel-preset-react/package.json
+22 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/babel-register/package.json
+23 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/balanced-match/package.json
+24 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/beeper/package.json
+25 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/brace-expansion/package.json
+26 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/builtin-modules/package.json
+27 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/camelcase/package.json
+28 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/camelcase-keys/package.json
+29 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/chalk/package.json
+30 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/clone/package.json
+31 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/clone-stats/package.json
+32 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/coffee-script/package.json
+33 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/colors/package.json
+34 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/concat-map/package.json
+35 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/connect/package.json
+36 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/content-disposition/package.json
+37 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/content-type/package.json
+38 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/cookie/package.json
+39 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/cookie-signature/package.json
+40 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/core-util-is/package.json
+41 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/dateformat/package.json
+42 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/debug/package.json
+43 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/decamelize/package.json
+44 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/defaults/package.json
+45 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/depd/package.json
+46 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/deprecated/package.json
+47 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/destroy/package.json
+48 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/duplexer2/package.json
+49 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ee-first/package.json
+50 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/end-of-stream/package.json
+51 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/error-ex/package.json
+52 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/escape-html/package.json
+53 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/escape-string-regexp/package.json
+54 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/esprima/package.json
+55 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/etag/package.json
+56 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/eventemitter2/package.json
+57 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/exit/package.json
+58 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/express/package.json
+59 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/express-handlebars/package.json
+60 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/extend/package.json
+61 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/fancy-log/package.json
+62 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/finalhandler/package.json
+63 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/find-index/package.json
+64 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/find-up/package.json
+65 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/findup-sync/package.json
+66 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/first-chunk-stream/package.json
+67 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/flagged-respawn/package.json
+68 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/forwarded/package.json
+69 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/fresh/package.json
+70 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/gaze/package.json
+71 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/get-stdin/package.json
+72 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/getobject/package.json
+73 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/glob/package.json
+74 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/glob-stream/package.json
+75 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/glob-watcher/package.json
+76 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/glob2base/package.json
+77 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/globule/package.json
+78 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/glogg/package.json
+79 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/graceful-fs/package.json
+80 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/grunt/package.json
+81 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/grunt-legacy-log/package.json
+82 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/grunt-legacy-log-utils/package.json
+83 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/grunt-legacy-util/package.json
+84 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/gulp/package.json
+85 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/gulp-util/package.json
+86 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/gulplog/package.json
+87 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/has-ansi/package.json
+88 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/has-gulplog/package.json
+89 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/hooker/package.json
+90 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/hosted-git-info/package.json
+91 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/http-errors/package.json
+92 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/iconv-lite/package.json
+93 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/indent-string/package.json
+94 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/inflight/package.json
+95 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/inherits/package.json
+96 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/init/package.json
+97 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/interpret/package.json
+98 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ipaddr.js/package.json
+99 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/is-arrayish/package.json
+100 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/is-builtin-module/package.json
+101 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/is-finite/package.json
+102 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/is-utf8/package.json
+103 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/isarray/package.json
+104 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/js-yaml/package.json
+105 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/liftoff/package.json
+106 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/load-json-file/package.json
+107 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash/package.json
+108 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._basecopy/package.json
+109 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._basetostring/package.json
+110 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._basevalues/package.json
+111 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._getnative/package.json
+112 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._isiterateecall/package.json
+113 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._reescape/package.json
+114 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._reevaluate/package.json
+115 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash._reinterpolate/package.json
+116 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.escape/package.json
+117 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.isarguments/package.json
+118 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.isarray/package.json
+119 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.keys/package.json
+120 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.restparam/package.json
+121 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.template/package.json
+122 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lodash.templatesettings/package.json
+123 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/loud-rejection/package.json
+124 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/lru-cache/package.json
+125 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/map-obj/package.json
+126 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/material-ui/package.json
+127 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/media-typer/package.json
+128 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/meow/package.json
+129 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/merge-descriptors/package.json
+130 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/methods/package.json
+131 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/mime/package.json
+132 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/mime-db/package.json
+133 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/mime-types/package.json
+134 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/minimatch/package.json
+135 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/minimist/package.json
+136 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/mkdirp/package.json
+137 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ms/package.json
+138 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/multipipe/package.json
+139 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/negotiator/package.json
+140 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/nopt/package.json
+141 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/normalize-package-data/package.json
+142 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/number-is-nan/package.json
+143 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/object-assign/package.json
+144 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/on-finished/package.json
+145 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/once/package.json
+146 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/orchestrator/package.json
+147 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/ordered-read-streams/package.json
+148 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/os-homedir/package.json
+149 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/parse-json/package.json
+150 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/parseurl/package.json
+151 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/path-exists/package.json
+152 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/path-is-absolute/package.json
+153 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/path-to-regexp/package.json
+154 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/path-type/package.json
+155 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/pify/package.json
+156 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/pinkie/package.json
+157 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/pinkie-promise/package.json
+158 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/pretty-hrtime/package.json
+159 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/process-nextick-args/package.json
+160 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/proxy-addr/package.json
+161 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/qs/package.json
+162 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/range-parser/package.json
+163 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/react/package.json
+164 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/react-dom/package.json
+165 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/read-pkg/package.json
+166 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/read-pkg-up/package.json
+167 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/readable-stream/package.json
+168 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/rechoir/package.json
+169 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/redent/package.json
+170 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/repeating/package.json
+171 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/replace-ext/package.json
+172 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/resolve/package.json
+173 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/rimraf/package.json
+174 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/semver/package.json
+175 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/send/package.json
+176 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/sequencify/package.json
+177 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/serve-favicon/package.json
+178 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/serve-static/package.json
+179 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/sigmund/package.json
+180 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/signal-exit/package.json
+181 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/sparkles/package.json
+182 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/spdx-correct/package.json
+183 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/spdx-exceptions/package.json
+184 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/spdx-expression-parse/package.json
+185 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/spdx-license-ids/package.json
+186 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/statuses/package.json
+187 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/stream-consume/package.json
+188 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/string_decoder/package.json
+189 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/strip-ansi/package.json
+190 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/strip-bom/package.json
+191 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/strip-indent/package.json
+192 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/supports-color/package.json
+193 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/through2/package.json
+194 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/tildify/package.json
+195 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/trim-newlines/package.json
+196 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/type-is/package.json
+197 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/underscore/package.json
+198 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/underscore.string/package.json
+199 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/unique-stream/package.json
+200 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/unpipe/package.json
+201 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/user-home/package.json
+202 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/util-deprecate/package.json
+203 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/utils-merge/package.json
+204 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/v8flags/package.json
+205 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/validate-npm-package-license/package.json
+206 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/vary/package.json
+207 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/vinyl/package.json
+208 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/vinyl-fs/package.json
+209 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/which/package.json
+210 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/wrappy/package.json
+211 verbose installManyTop reading scoped package data from /Users/aminanokasae/node_modules/xtend/package.json
+212 info package.json async@0.1.22 No license field.
+213 info package.json coffee-script@1.3.3 No license field.
+214 info package.json colors@0.6.2 No license field.
+215 info package.json dateformat@1.0.2-1.2.3 No repository field.
+216 info package.json dateformat@1.0.2-1.2.3 No license field.
+217 info package.json deprecated@0.0.1 No license field.
+218 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+219 info package.json esprima@1.0.4 No license field.
+220 info package.json exit@0.1.2 No license field.
+221 info package.json findup-sync@0.1.3 No license field.
+222 info package.json flagged-respawn@0.3.1 No license field.
+223 info package.json gaze@0.5.2 No license field.
+224 info package.json getobject@0.1.0 No license field.
+225 info package.json glob@3.1.21 license should be a valid SPDX license expression
+226 info package.json glob-stream@3.1.18 No license field.
+227 info package.json glob-watcher@0.0.6 No license field.
+228 info package.json glob2base@0.0.12 No license field.
+229 info package.json globule@0.1.0 No license field.
+230 info package.json graceful-fs@1.2.3 license should be a valid SPDX license expression
+231 info package.json grunt-legacy-log@0.1.2 No license field.
+232 info package.json grunt-legacy-log-utils@0.1.1 No license field.
+233 info package.json grunt@0.4.5 No license field.
+234 info package.json grunt-legacy-util@0.2.0 No license field.
+235 info package.json hooker@0.2.3 No license field.
+236 info package.json init@0.1.2 No license field.
+237 info package.json js-yaml@2.0.5 license should be a valid SPDX license expression
+238 info package.json mime@1.3.4 No license field.
+239 info package.json minimatch@0.2.14 license should be a valid SPDX license expression
+240 info package.json ms@0.7.1 No license field.
+241 info package.json nopt@1.0.10 license should be a valid SPDX license expression
+242 info package.json orchestrator@0.3.7 No license field.
+243 info package.json rechoir@0.6.2 No license field.
+244 info package.json replace-ext@0.0.1 No license field.
+245 info package.json rimraf@2.2.8 license should be a valid SPDX license expression
+246 info package.json sequencify@0.0.7 No license field.
+247 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+248 info package.json underscore@1.7.0 No license field.
+249 info package.json underscore.string@2.2.1 No license field.
+250 info package.json unique-stream@1.0.0 license should be a valid SPDX license expression
+251 info package.json utils-merge@1.0.0 No license field.
+252 info package.json v8flags@2.0.11 No license field.
+253 info package.json vinyl-fs@0.3.14 No license field.
+254 verbose readDependencies loading dependencies from /Users/aminanokasae/package.json
+255 silly cache add args [ 'RAILS_ENV=production', null ]
+256 verbose cache add spec RAILS_ENV=production
+257 silly cache add args [ './bin/rake', null ]
+258 verbose cache add spec ./bin/rake
+259 verbose stack Error: Unsupported URL Type: assets:precompile
+259 verbose stack     at parseUrl (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+259 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+259 verbose stack     at resolver (/usr/local/lib/node_modules/npm/lib/install.js:845:42)
+259 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+259 verbose stack     at Array.forEach (native)
+259 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+259 verbose stack     at Array.forEach (native)
+259 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+259 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:703:5
+259 verbose stack     at ReadFileContext.<anonymous> (/usr/local/lib/node_modules/npm/lib/install.js:368:22)
+260 verbose cwd /Users/aminanokasae/Desktop/Firdowsspace
+261 error Darwin 15.4.0
+262 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--" "RAILS_ENV=production" "./bin/rake" "assets:precompile" "--"
+263 error node v4.2.4
+264 error npm  v2.14.12
+265 error Unsupported URL Type: assets:precompile
+266 error If you need help, you may report this error at:
+266 error     <https://github.com/npm/npm/issues>
+267 verbose exit [ 1, true ]
